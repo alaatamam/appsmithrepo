@@ -2,6 +2,7 @@
     "needsErrorInfo": false,
     "mobileBottomRow": 7,
     "widgetName": "Text1",
+    "dynamicPropertyPathList": [],
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -10,17 +11,17 @@
         "label"
     ],
     "topRow": 1,
-    "bottomRow": 14,
+    "bottomRow": 16,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 40,
     "animateLoading": true,
     "overflow": "NONE",
-    "fontFamily": "Nunito Sans",
+    "fontFamily": "Inter",
     "parentColumnSpace": 12.580078125,
     "dynamicTriggerPathList": [],
-    "leftColumn": 0,
+    "leftColumn": 2,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"},
@@ -31,16 +32,16 @@
     "text": "🌟 Welcome, {{Table1.selectedRow.Name}}! 🌟\n\nYou've arrived at GoGoMass \u2014 your ultimate gateway to discovering vibrant events, memorable vibes, and perfect weekend getaways. Dive into your personalized dashboard to start your adventure. Uncover the city's hidden gems, relax in cozy spots, or turn up the excitement at exhilarating events. Let's make every moment unforgettable!\n",
     "key": "1h93em0lf4",
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 63,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "md4v5qa7n5",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
-    "textColor": "#ffecd5",
+    "textColor": "#18181b",
     "version": 1,
-    "parentId": "wr1xe5vn3e",
+    "parentId": "ntovbrx6bz",
     "tags": [
         "Suggested",
         "Content"
@@ -53,7 +54,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 24,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 14,
+    "originalBottomRow": 16,
     "fontSize": "1rem",
     "minDynamicHeight": 4
 }

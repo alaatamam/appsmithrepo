@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.3167ea09b141a0db57f2a78cfc022004.svg",
-    "labelText": "Likes!",
+    "labelText": "Likes",
     "topRow": 4,
     "labelWidth": 5,
     "type": "MULTI_SELECT_TREE_WIDGET",
@@ -14,6 +14,7 @@
         {"key": "borderRadius"}
     ],
     "options": "[\n  {\n    \"label\": \"Food\",\n    \"value\": \"Food\",\n    \"children\": [\n      {\n        \"label\": \"Restaurants\",\n        \"value\": \"Restaurants\"\n      },\n      {\n        \"label\": \"Sweet Treats\",\n        \"value\": \"Sweet Treats\"\n      },\n      {\n        \"label\": \"Savory Food\",\n        \"value\": \"Savory Food\"\n      }\n    ]\n  },\n  {\n    \"label\": \"Ambiance\",\n    \"value\": \"Ambiance\",\n    \"children\": [\n      {\n        \"label\": \"Cozy\",\n        \"value\": \"Cozy\"\n      },\n      {\n        \"label\": \"Luxurious\",\n        \"value\": \"Luxurious\"\n      },\n      {\n        \"label\": \"Modern\",\n        \"value\": \"Modern\"\n      },\n      {\n        \"label\": \"Vintage\",\n        \"value\": \"Vintage\"\n      }\n    ]\n  },\n  {\n    \"label\": \"Indoors/Outdoors\",\n    \"value\": \"Indoors/Outdoors\",\n    \"children\": [\n      {\n        \"label\": \"Indoor\",\n        \"value\": \"Indoor\"\n      },\n      {\n        \"label\": \"Outdoor\",\n        \"value\": \"Outdoor\"\n      }\n    ]\n  },\n  {\n    \"label\": \"Activities\",\n    \"value\": \"Activities\",\n    \"children\": [\n      {\n        \"label\": \"Movies\",\n        \"value\": \"Movies\"\n      },\n      {\n        \"label\": \"Shopping\",\n        \"value\": \"Shopping\"\n      },\n      {\n        \"label\": \"Outdoor Activities\",\n        \"value\": \"Outdoor Activities\",\n        \"children\": [\n          {\n            \"label\": \"Hiking\",\n            \"value\": \"Hiking\"\n          },\n          {\n            \"label\": \"Camping\",\n            \"value\": \"Camping\"\n          },\n          {\n            \"label\": \"Cycling\",\n            \"value\": \"Cycling\"\n          }\n        ]\n      },\n      {\n        \"label\": \"Music Festivals\",\n        \"value\": \"Music Festivals\"\n      }\n    ]\n  },\n  {\n    \"label\": \"Miscellaneous\",\n    \"value\": \"Miscellaneous\",\n    \"children\": [\n      {\n        \"label\": \"Workshops\",\n        \"value\": \"Workshops\"\n      },\n      {\n        \"label\": \"Meetups\",\n        \"value\": \"Meetups\"\n      },\n      {\n        \"label\": \"Conferences\",\n        \"value\": \"Conferences\"\n      }\n    ]\n  }\n]\n",
+    "labelStyle": "",
     "placeholderText": "Select option(s)",
     "isDisabled": false,
     "isRequired": false,
