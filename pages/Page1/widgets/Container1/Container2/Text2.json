@@ -24,12 +24,11 @@
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
-        {"key": "borderRadius"},
-        {"key": "text"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": " {{Table1.selectedRow.Name}}, Tell us about your likes and dislikes?",
+    "text": " Any changes to your likes and dislike?\n",
     "key": "1h93em0lf4",
     "isDeprecated": false,
     "rightColumn": 51,
@@ -50,11 +49,11 @@
     "isLoading": false,
     "mobileTopRow": 1,
     "responsiveBehavior": "fill",
-    "originalTopRow": 1,
+    "originalTopRow": 0,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 22,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 7,
+    "originalBottomRow": 4,
     "fontSize": "0.875rem",
     "minDynamicHeight": 4
 }

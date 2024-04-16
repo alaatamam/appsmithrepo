@@ -8,7 +8,7 @@
     "mode": "SHOW_ALL",
     "defaultOptionValue": ["GREEN"],
     "animateLoading": true,
-    "leftColumn": 39,
+    "leftColumn": 30,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"}
@@ -25,6 +25,7 @@
     "tags": ["Select"],
     "isLoading": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalBottomRow": 11,
     "needsErrorInfo": false,
     "mobileBottomRow": 15,
     "widgetName": "MultiTreeSelect2",
@@ -52,6 +53,7 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 8,
     "responsiveBehavior": "fill",
+    "originalTopRow": 4,
     "mobileLeftColumn": 32,
     "maxDynamicHeight": 9000,
     "allowClear": false,
