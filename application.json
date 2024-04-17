@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Car showroom",
+      "id": "admin",
       "isDefault": false
     },
     {
@@ -9,7 +9,11 @@
       "isDefault": true
     },
     {
-      "id": "Lalisa Manoban",
+      "id": "Destination",
+      "isDefault": false
+    },
+    {
+      "id": "Amelia Richards",
       "isDefault": false
     }
   ],
