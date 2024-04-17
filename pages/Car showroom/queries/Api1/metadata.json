@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_outdooractivity",
+    "name": "Api1",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/outdoor/outdoor"
+        "url": "web:4000/user/user"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page1",
+    "pageId": "Car showroom",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-16T23:34:34Z"
+    "createdAt": "2024-04-17T00:53:06Z"
   },
-  "id": "Page1_get_outdooractivity",
+  "id": "Car showroom_Api1",
   "deleted": false,
-  "gitSyncId": "661ef198b4c0a929a01e31d1_661f0b0ab4c0a929a01e31e2"
+  "gitSyncId": "661ef198b4c0a929a01e31d1_661f1d72b4c0a929a01e325c"
 }

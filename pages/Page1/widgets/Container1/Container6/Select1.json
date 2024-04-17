@@ -41,7 +41,7 @@
     "parentColumnSpace": 5.58441162109375,
     "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "sourceData": "{{get_users.data.map( (obj) =>{ return  {'label': obj.PaymentMethod, 'value': obj.PaymentMethod } })}}",
+    "sourceData": "{{get_timothee.data.map( (obj) =>{ return  {'label': obj.PaymentMethod, 'value': obj.PaymentMethod } })}}",
     "key": "cpvfzzn2av",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,

@@ -12,8 +12,8 @@
         "parent",
         "group"
     ],
-    "topRow": 21,
-    "bottomRow": 35,
+    "topRow": 25,
+    "bottomRow": 39,
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
@@ -23,10 +23,7 @@
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
     "leftColumn": 33,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
+    "dynamicBindingPathList": [{"key": "boxShadow"}],
     "children": [{
         "needsErrorInfo": false,
         "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
@@ -86,10 +83,10 @@
     "isLoading": false,
     "mobileTopRow": 21,
     "responsiveBehavior": "fill",
-    "originalTopRow": 21,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "originalTopRow": 25,
+    "borderRadius": "1.5rem",
     "mobileLeftColumn": 3,
     "maxDynamicHeight": 14,
-    "originalBottomRow": 35,
+    "originalBottomRow": 39,
     "minDynamicHeight": 13
 }
