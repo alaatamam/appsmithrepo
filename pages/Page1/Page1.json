@@ -29,8 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Page1_Api1",
-              "name": "Api1",
+              "id": "Page1_get_users",
+              "name": "get_users",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
