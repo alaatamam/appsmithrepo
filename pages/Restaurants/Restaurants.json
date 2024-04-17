@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Amelia Richards",
-    "slug": "amelia-richards",
+    "name": "Restaurants",
+    "slug": "restaurants",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Amelia Richards",
+        "id": "Restaurants",
         "deleted": false,
         "policies": [],
         "userPermissions": []
