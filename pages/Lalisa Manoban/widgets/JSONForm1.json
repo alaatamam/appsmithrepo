@@ -2,10 +2,11 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "topRow": 79,
+    "onSubmit": "{{update_userinfo.run().then(() => {\n  update_userinfo.run();\n  get_user.run();\n});}}",
+    "topRow": 2,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 34,
+    "leftColumn": 0,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -157,7 +158,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 201,
+    "originalBottomRow": 124,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -214,7 +215,7 @@
                 "iconAlign": "left",
                 "position": 10,
                 "isDisabled": false,
-                "sourceData": 35,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             },
             "Gender": {
@@ -236,7 +237,7 @@
                 "iconAlign": "left",
                 "position": 5,
                 "isDisabled": false,
-                "sourceData": "Male",
+                "sourceData": "Female",
                 "fieldType": "Text Input"
             },
             "Name": {
@@ -258,7 +259,7 @@
                 "iconAlign": "left",
                 "position": 8,
                 "isDisabled": false,
-                "sourceData": "Timothee Chamalet",
+                "sourceData": "Cherlyn Bernolet",
                 "fieldType": "Text Input"
             },
             "Dislikes": {
@@ -280,7 +281,7 @@
                 "iconAlign": "left",
                 "position": 4,
                 "isDisabled": false,
-                "sourceData": "spicy food",
+                "sourceData": "adventure movies",
                 "fieldType": "Text Input"
             },
             "Occupation": {
@@ -302,7 +303,7 @@
                 "iconAlign": "left",
                 "position": 9,
                 "isDisabled": false,
-                "sourceData": "Actor",
+                "sourceData": "unemployed",
                 "fieldType": "Text Input"
             },
             "UserID": {
@@ -324,7 +325,7 @@
                 "iconAlign": "left",
                 "position": 13,
                 "isDisabled": false,
-                "sourceData": 36,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             },
             "DietaryRestrictions": {
@@ -368,7 +369,7 @@
                 "iconAlign": "left",
                 "position": 11,
                 "isDisabled": false,
-                "sourceData": "Paypal",
+                "sourceData": "Credit Card",
                 "fieldType": "Text Input"
             },
             "Budget": {
@@ -390,7 +391,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 286,
+                "sourceData": 203,
                 "fieldType": "Number Input"
             },
             "Likes": {
@@ -412,7 +413,7 @@
                 "iconAlign": "left",
                 "position": 7,
                 "isDisabled": false,
-                "sourceData": "sweet food, movies",
+                "sourceData": "quiet areas",
                 "fieldType": "Text Input"
             },
             "Balance": {
@@ -434,7 +435,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 92,
+                "sourceData": 200,
                 "fieldType": "Number Input"
             },
             "Age": {
@@ -456,7 +457,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 28,
+                "sourceData": 4,
                 "fieldType": "Number Input"
             },
             "Hometown": {
@@ -478,32 +479,32 @@
                 "iconAlign": "left",
                 "position": 6,
                 "isDisabled": false,
-                "sourceData": "123 Hollywood Boulevard Boston MA",
+                "sourceData": "321 Walnut Ave Springfield MO",
                 "fieldType": "Text Input"
             }
         },
         "position": -1,
         "isDisabled": false,
         "sourceData": {
-            "PaymentID": 35,
-            "Gender": "Male",
-            "Name": "Timothee Chamalet",
-            "Dislikes": "spicy food",
-            "Occupation": "Actor",
-            "UserID": 36,
+            "PaymentID": 2,
+            "Gender": "Female",
+            "Name": "Cherlyn Bernolet",
+            "Dislikes": "adventure movies",
+            "Occupation": "unemployed",
+            "UserID": 2,
             "DietaryRestrictions": "vegan",
-            "PaymentMethod": "Paypal",
-            "Budget": 286,
-            "Likes": "sweet food, movies",
-            "Balance": 92,
-            "Age": 28,
-            "Hometown": "123 Hollywood Boulevard Boston MA"
+            "PaymentMethod": "Credit Card",
+            "Budget": 227,
+            "Likes": "quiet areas",
+            "Balance": 187,
+            "Age": 26,
+            "Hometown": "321 Walnut Ave Springfield MO"
         },
         "cellBoxShadow": "none",
         "fieldType": "Object"
     }},
     "needsErrorInfo": false,
-    "mobileBottomRow": 120,
+    "mobileBottomRow": 49,
     "widgetName": "JSONForm1",
     "submitButtonStyles": {
         "boxShadow": "none",
@@ -513,31 +514,31 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 83,
+    "bottomRow": 124,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Form",
     "hideCard": false,
-    "mobileRightColumn": 32,
+    "mobileRightColumn": 26,
     "parentColumnSpace": 17.9375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
     "sourceData": "{{Table1.selectedRow}}",
     "resetButtonLabel": "Reset",
-    "key": "9evirqik2a",
+    "key": "pupu6va2ru",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 59,
-    "widgetId": "tv9x4zbxoq",
+    "rightColumn": 25,
+    "widgetId": "w7m94nxhen",
     "minWidth": 450,
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 79,
+    "mobileTopRow": 8,
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 79,
-    "mobileLeftColumn": 7,
+    "originalTopRow": 2,
+    "mobileLeftColumn": 1,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }
