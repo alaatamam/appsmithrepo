@@ -124,11 +124,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-<<<<<<< HEAD:pages/Restaurants/widgets/JSONForm1.json
-    "originalBottomRow": 84,
-=======
-    "originalBottomRow": 129,
->>>>>>> master:pages/Cafe - Admin/widgets/Showroom_listCopy/JSONForm1.json
+    "originalBottomRow": 70,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -254,53 +250,8 @@
                 "isDisabled": false,
                 "sourceData": 1,
                 "fieldType": "Number Input"
-<<<<<<< HEAD:pages/Restaurants/widgets/JSONForm1.json
-            },
-            "RestaurantID": {
-                "labelTextSize": "0.875rem",
-                "identifier": "RestaurantID",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.RestaurantID))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
-                "accessor": "RestaurantID",
-                "isVisible": true,
-                "label": "Restaurant ID",
-                "originalIdentifier": "RestaurantID",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 5,
-                "isDisabled": false,
-                "sourceData": 1,
-                "fieldType": "Number Input"
-            },
-            "Reservations": {
-                "labelTextSize": "0.875rem",
-                "identifier": "Reservations",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Reservations))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
-                "accessor": "Reservations",
-                "isVisible": true,
-                "label": "Reservations",
-                "originalIdentifier": "Reservations",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 4,
-                "isDisabled": false,
-                "sourceData": 20,
-                "fieldType": "Number Input"
-=======
->>>>>>> master:pages/Cafe - Admin/widgets/Showroom_listCopy/JSONForm1.json
+
+ master:pages/Cafe - Admin/widgets/Showroom_listCopy/JSONForm1.json
             },
             "Name": {
                 "labelTextSize": "0.875rem",
@@ -378,11 +329,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-<<<<<<< HEAD:pages/Restaurants/widgets/JSONForm1.json
     "bottomRow": 84,
-=======
-    "bottomRow": 70,
->>>>>>> master:pages/Cafe - Admin/widgets/Showroom_listCopy/JSONForm1.json
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",

@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Movies - User",
-    "collectionId": "Movies - User_JSObject1",
+    "pageId": "Restaurant - User",
+    "collectionId": "Restaurant - User_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T08:33:22Z"
+    "createdAt": "2024-04-18T16:03:01Z"
   },
-  "id": "Movies - User_JSObject1.fetchAllUsers",
+  "id": "Restaurant - User_JSObject1.fetchAllUsers",
   "deleted": false,
-  "gitSyncId": "6620dabb07d12d3be729d458_6620dad207d12d3be729d498"
+  "gitSyncId": "6620e6a407d12d3be729d4c5_6621443507d12d3be729d526"
 }

@@ -13,11 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-<<<<<<< HEAD:pages/Restaurants/Restaurants.json
-          "bottomRow": 840,
-=======
-          "bottomRow": 1540,
->>>>>>> master:pages/Customer HQ/Customer HQ.json
+          "bottomRow": 1460,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
