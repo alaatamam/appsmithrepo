@@ -5,13 +5,13 @@
     "widgetName": "Text1",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "displayName": "Text",
-    "topRow": 5,
+    "topRow": 3,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 12,
+    "bottomRow": 10,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -51,11 +51,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 5,
     "responsiveBehavior": "fill",
-    "originalTopRow": 5,
+    "originalTopRow": 3,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 11,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 12,
+    "originalBottomRow": 10,
     "fontSize": "3rem",
     "minDynamicHeight": 4
 }
