@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getTotalUserBudget",
-    "fullyQualifiedName": "JSObject1.getTotalUserBudget",
+    "name": "fetchAllUsers",
+    "fullyQualifiedName": "JSObject1.fetchAllUsers",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Admin View",
-    "collectionId": "Admin View_JSObject1",
+    "pageId": "Movies",
+    "collectionId": "Movies_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T04:28:22Z"
+    "createdAt": "2024-04-18T05:04:42Z"
   },
-  "id": "Admin View_JSObject1.getTotalUserBudget",
+  "id": "Movies_JSObject1.fetchAllUsers",
   "deleted": false,
-  "gitSyncId": "661ebff3b4c0a929a01e31a1_6620a16607d12d3be729d17a"
+  "gitSyncId": "6620a18107d12d3be729d17e_6620a9ea07d12d3be729d1ca"
 }
