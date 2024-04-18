@@ -2,11 +2,11 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{delete_user.run().then(() => {\n  delete_user.run();\n});}}",
-    "topRow": 71,
+    "onSubmit": "{{Api1.run().then(() => {\n  get_user.run();\n});}}",
+    "topRow": 92,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 32,
+    "leftColumn": 7,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -158,7 +158,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 193,
+    "originalBottomRow": 228,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -204,7 +204,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.PaymentID))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "PaymentID",
                 "isVisible": true,
                 "label": "Payment ID",
@@ -215,8 +215,8 @@
                 "iconAlign": "left",
                 "position": 10,
                 "isDisabled": false,
-                "sourceData": 3,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "Gender": {
                 "labelTextSize": "0.875rem",
@@ -314,7 +314,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.UserID))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "UserID",
                 "isVisible": true,
                 "label": "User ID",
@@ -325,8 +325,8 @@
                 "iconAlign": "left",
                 "position": 13,
                 "isDisabled": false,
-                "sourceData": 3,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "DietaryRestrictions": {
                 "labelTextSize": "0.875rem",
@@ -380,7 +380,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Budget))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "Budget",
                 "isVisible": true,
                 "label": "Budget",
@@ -391,8 +391,8 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 222,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "Likes": {
                 "labelTextSize": "0.875rem",
@@ -424,7 +424,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Balance))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "Balance",
                 "isVisible": true,
                 "label": "Balance",
@@ -435,8 +435,8 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 50,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "Age": {
                 "labelTextSize": "0.875rem",
@@ -446,7 +446,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Age))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "Age",
                 "isVisible": true,
                 "label": "Age",
@@ -457,8 +457,8 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 32,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "Hometown": {
                 "labelTextSize": "0.875rem",
@@ -514,10 +514,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 193,
+    "bottomRow": 214,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Form",
+    "title": "Add or Edit User",
     "hideCard": false,
     "mobileRightColumn": 57,
     "parentColumnSpace": 17.9375,
@@ -528,7 +528,7 @@
     "key": "n3qtymhulk",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 59,
+    "rightColumn": 57,
     "widgetId": "xp8j299boe",
     "minWidth": 450,
     "parentId": "0",
@@ -537,7 +537,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 71,
+    "originalTopRow": 92,
     "mobileLeftColumn": 32,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
