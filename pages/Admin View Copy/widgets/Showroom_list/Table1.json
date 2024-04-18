@@ -93,7 +93,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 71,
+    "bottomRow": 31,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
