@@ -19,6 +19,10 @@
     {
       "id": "Musical Festivals",
       "isDefault": false
+    },
+    {
+      "id": "Movies View",
+      "isDefault": false
     }
   ],
   "viewMode": false,
