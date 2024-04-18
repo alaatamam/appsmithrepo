@@ -1,23 +1,39 @@
 {
   "pages": [
     {
-      "id": "admin",
+      "id": "Movies Admin",
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "Customer HQ",
       "isDefault": true
     },
     {
-      "id": "Destination",
+      "id": "Movies - User",
       "isDefault": false
     },
     {
-      "id": "Restaurants",
+      "id": "Art Museums - User",
       "isDefault": false
     },
     {
-      "id": "Movies Admin",
+      "id": "Musical Festivals",
+      "isDefault": false
+    },
+    {
+      "id": "Admin View",
+      "isDefault": false
+    },
+    {
+      "id": "Cafe - Admin",
+      "isDefault": false
+    },
+    {
+      "id": "Restaurant - User",
+      "isDefault": false
+    },
+    {
+      "id": "Outdoor Activity - ",
       "isDefault": false
     },
     {

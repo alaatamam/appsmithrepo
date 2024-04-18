@@ -2,11 +2,11 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{post_movies.run().then(() => {\n  post_movies.run();\n  get_movies.run();\n});}}",
-    "topRow": 6,
+    "onSubmit": "{{postMovies.run()}}",
+    "topRow": 16,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 28,
+    "leftColumn": 7,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -131,7 +131,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 47,
+    "originalBottomRow": 79,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -158,7 +158,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "dataType": "number",
                 "accessor": "MovieID",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Movie ID",
                 "originalIdentifier": "MovieID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
@@ -167,7 +167,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 40,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             },
             "OverallRating": {
@@ -189,7 +189,7 @@
                 "iconAlign": "left",
                 "position": 4,
                 "isDisabled": false,
-                "sourceData": "",
+                "sourceData": "8.8",
                 "fieldType": "Text Input"
             },
             "Genre": {
@@ -211,7 +211,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": "",
+                "sourceData": "Science Fiction",
                 "fieldType": "Text Input"
             },
             "Activity_Type_ID": {
@@ -233,7 +233,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 5,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             },
             "Name": {
@@ -255,24 +255,26 @@
                 "iconAlign": "left",
                 "position": 3,
                 "isDisabled": false,
-                "sourceData": "",
+                "sourceData": "Inception",
                 "fieldType": "Text Input"
             }
         },
         "position": -1,
         "isDisabled": false,
         "sourceData": {
-            "MovieID": "",
-            "OverallRating": "",
-            "Genre": "",
-            "Activity_Type_ID": "",
-            "Name": ""
+            "MovieID": 1,
+            "OverallRating": "8.8",
+            "PriceTag": "$",
+            "Genre": "Science Fiction",
+            "Activity_Type_ID": 1,
+            "TheaterLocation": "Downtown Cinema",
+            "Name": "Inception"
         },
         "cellBoxShadow": "none",
         "fieldType": "Object"
     }},
     "needsErrorInfo": false,
-    "mobileBottomRow": 71,
+    "mobileBottomRow": 58,
     "widgetName": "JSONForm1",
     "submitButtonStyles": {
         "boxShadow": "none",
@@ -282,31 +284,31 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 47,
+    "bottomRow": 65,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add a Movie",
     "hideCard": false,
-    "mobileRightColumn": 35,
+    "mobileRightColumn": 59,
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
     "sourceData": "{{Table1.selectedRow}}",
     "resetButtonLabel": "Reset",
-    "key": "dkg5uf1qvz",
+    "key": "yls2fo2mam",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 51,
-    "widgetId": "0cc8tn5wbo",
+    "rightColumn": 32,
+    "widgetId": "r1l68meyhz",
     "minWidth": 450,
     "parentId": "0",
     "renderMode": "CANVAS",
-    "mobileTopRow": 30,
+    "mobileTopRow": 17,
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 6,
-    "mobileLeftColumn": 10,
+    "originalTopRow": 16,
+    "mobileLeftColumn": 34,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }
