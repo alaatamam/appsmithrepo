@@ -27,6 +27,10 @@
     {
       "id": "Cafe",
       "isDefault": false
+    },
+    {
+      "id": "art museums",
+      "isDefault": false
     }
   ],
   "viewMode": false,
