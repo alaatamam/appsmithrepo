@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/movies/movies/test"
+        "url": "web:4000/movies/movies/Name"
       },
       "invalids": [],
       "messages": [],

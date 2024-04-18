@@ -6,7 +6,7 @@
     "topRow": 16,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 25,
+    "leftColumn": 51,
     "dynamicBindingPathList": [
         {"key": "submitButtonStyles.borderRadius"},
         {"key": "resetButtonStyles.borderRadius"},
@@ -292,7 +292,7 @@
     "key": "dkg5uf1qvz",
     "backgroundColor": "#d4d4d8",
     "isDeprecated": false,
-    "rightColumn": 44,
+    "rightColumn": 64,
     "widgetId": "0cc8tn5wbo",
     "minWidth": 450,
     "parentId": "qd9s0115gl",

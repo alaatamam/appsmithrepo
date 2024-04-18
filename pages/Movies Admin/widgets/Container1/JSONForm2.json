@@ -2,11 +2,11 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{deleteMovies.run()}}",
+    "onSubmit": "{{deleteMovies.run().then(() => {\n  deleteMovies.run();\n  get_movies.run();\n});}}",
     "topRow": 15,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 44,
+    "leftColumn": 26,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -51,7 +51,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Delete",
+    "submitButtonLabel": "Submit",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -189,7 +189,7 @@
                 "iconAlign": "left",
                 "position": 4,
                 "isDisabled": false,
-                "sourceData": "2.0",
+                "sourceData": "5.0",
                 "fieldType": "Text Input"
             },
             "Genre": {
@@ -211,7 +211,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": "Science Fiction Drama",
+                "sourceData": "Western Comedy",
                 "fieldType": "Text Input"
             },
             "Activity_Type_ID": {
@@ -255,18 +255,18 @@
                 "iconAlign": "left",
                 "position": 3,
                 "isDisabled": false,
-                "sourceData": "Galaxy Grandview Cinemas Showcase",
+                "sourceData": "Odeon Odyssey Cinemas Lounge Showcase Theater",
                 "fieldType": "Text Input"
             }
         },
         "position": -1,
         "isDisabled": false,
         "sourceData": {
-            "MovieID": 1,
-            "OverallRating": "2.0",
-            "Genre": "Science Fiction Drama",
+            "MovieID": 15,
+            "OverallRating": "5.0",
+            "Genre": "Western Comedy",
             "Activity_Type_ID": 5,
-            "Name": "Galaxy Grandview Cinemas Showcase"
+            "Name": "Odeon Odyssey Cinemas Lounge Showcase Theater"
         },
         "cellBoxShadow": "none",
         "fieldType": "Object"
@@ -285,19 +285,19 @@
     "bottomRow": 71,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Delete a Movie",
+    "title": "Delete",
     "hideCard": false,
-    "mobileRightColumn": 61,
+    "mobileRightColumn": 51,
     "parentColumnSpace": 15.6630859375,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
     "sourceData": "{{Table1.selectedRow}}",
     "resetButtonLabel": "Reset",
-    "key": "qlreqlz97o",
+    "key": "3104cz3jmr",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 62,
-    "widgetId": "ghewsuh4dd",
+    "rightColumn": 51,
+    "widgetId": "0xog5njleb",
     "minWidth": 450,
     "parentId": "qd9s0115gl",
     "renderMode": "CANVAS",
@@ -306,7 +306,7 @@
     "responsiveBehavior": "fill",
     "fixedFooter": true,
     "originalTopRow": 15,
-    "mobileLeftColumn": 36,
+    "mobileLeftColumn": 26,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }
