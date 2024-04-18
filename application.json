@@ -27,6 +27,10 @@
     {
       "id": "Cafe - Admin",
       "isDefault": false
+    },
+    {
+      "id": "Restaurant - User",
+      "isDefault": false
     }
   ],
   "viewMode": false,
