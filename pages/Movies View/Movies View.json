@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Admin View",
-    "slug": "admin-view",
+    "name": "Movies View",
+    "slug": "movies-view",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1360,
+          "bottomRow": 1540,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Admin View_getMovies",
-              "name": "getMovies",
+              "id": "Movies View_Api1",
+              "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Admin View",
+        "id": "Movies View",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661ef198b4c0a929a01e31d1_661f1ceeb4c0a929a01e324a"
+  "gitSyncId": "6620c13907d12d3be729d30a_6620c1aa07d12d3be729d341"
 }
