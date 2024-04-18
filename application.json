@@ -1,15 +1,11 @@
 {
   "pages": [
     {
-<<<<<<< HEAD
-      "id": "Admin View",
-=======
       "id": "admin",
->>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4
       "isDefault": false
     },
     {
-      "id": "UserProfile",
+      "id": "Page1",
       "isDefault": true
     },
     {
@@ -18,22 +14,6 @@
     },
     {
       "id": "Restaurants",
-      "isDefault": false
-    },
-    {
-      "id": "Customer HQ",
-      "isDefault": false
-    },
-    {
-      "id": "Movies",
-      "isDefault": false
-    },
-    {
-      "id": "Movies Copy",
-      "isDefault": false
-    },
-    {
-      "id": "Movies Admin",
       "isDefault": false
     }
   ],

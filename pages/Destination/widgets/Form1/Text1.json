@@ -26,24 +26,19 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-<<<<<<<< HEAD:pages/Movies Admin/widgets/Form1/Text1.json
-    "text": "Form",
-    "key": "iia51dx2as",
-========
     "text": "Destination",
     "key": "7h8dqnwkfo",
->>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/Destination/widgets/Form1/Text1.json
     "isDeprecated": false,
     "rightColumn": 41,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "1rsg75vqfk",
+    "widgetId": "tc4c7uypfu",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "b0skdfy84m",
+    "parentId": "3wahfowhqc",
     "tags": [
         "Suggested",
         "Content"
