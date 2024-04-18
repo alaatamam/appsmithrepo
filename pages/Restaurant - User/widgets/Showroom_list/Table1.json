@@ -18,8 +18,7 @@
         {"key": "primaryColumns.CuisineType.computedValue"},
         {"key": "primaryColumns.PriceTag.computedValue"},
         {"key": "primaryColumns.Reservations.computedValue"},
-        {"key": "primaryColumns.RestaurantID.computedValue"},
-        {"key": "primaryColumns.Location.computedValue"}
+        {"key": "primaryColumns.RestaurantID.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 2,
@@ -62,11 +61,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-<<<<<<< HEAD:pages/Restaurants/widgets/Table1.json
-    "columnUpdatedAt": 1713410371649,
-=======
     "columnUpdatedAt": 1713428992891,
->>>>>>> master:pages/Restaurant - User/widgets/Showroom_list/Table1.json
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 76,
@@ -78,8 +73,7 @@
         "CuisineType",
         "PriceTag",
         "Reservations",
-        "RestaurantID",
-        "Location"
+        "RestaurantID"
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
@@ -291,40 +285,6 @@
             "sticky": "",
             "originalId": "Name",
             "currencyCode": "USD",
-            "verticalAlignment": "CENTER"
-        },
-        "Location": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Location\"]))}}",
-            "isEditable": false,
-            "notation": "standard",
-            "alias": "Location",
-            "enableSort": true,
-            "isSaveVisible": true,
-            "id": "Location",
-            "isDisabled": false,
-            "allowSameOptionsInNewRow": true,
-            "validation": {},
-            "isCellVisible": true,
-            "isDerived": false,
-            "textSize": "0.875rem",
-            "allowCellWrapping": false,
-            "index": 2,
-            "isDiscardVisible": true,
-            "isVisible": true,
-            "label": "Location",
-            "fontStyle": "",
-            "textColor": "",
-            "columnType": "text",
-            "thousandSeparator": true,
-            "horizontalAlignment": "LEFT",
-            "isCellEditable": false,
-            "decimals": 0,
-            "width": 150,
-            "enableFilter": true,
-            "sticky": "",
-            "originalId": "Location",
-            "currencyCode": "USD",
-            "cellBackground": "",
             "verticalAlignment": "CENTER"
         }
     },
