@@ -17,7 +17,7 @@
     "leftColumn": 2,
     "dynamicBindingPathList": [{"key": "text"}],
     "truncateButtonColor": "#FFC13D",
-    "text": "Details about Restaurants: <b>{{Table1.selectedRow.Name}}",
+    "text": "Details about Activity: <b>{{Table1.selectedRow.Name}}",
     "key": "czyq0gtp0e",
     "labelTextSize": "0.875rem",
     "rightColumn": 64,
