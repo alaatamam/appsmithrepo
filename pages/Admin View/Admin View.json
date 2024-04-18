@@ -1,12 +1,7 @@
 {
   "unpublishedPage": {
-<<<<<<<< HEAD:pages/Admin View/Admin View.json
     "name": "Admin View",
     "slug": "admin-view",
-========
-    "name": "admin",
-    "slug": "admin",
->>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/admin/admin.json
     "layouts": [
       {
         "viewMode": false,
@@ -33,11 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-<<<<<<<< HEAD:pages/Admin View/Admin View.json
               "id": "Admin View_Api1",
-========
-              "id": "admin_Api1",
->>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/admin/admin.json
               "name": "Api1",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -48,11 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-<<<<<<<< HEAD:pages/Admin View/Admin View.json
         "id": "Admin View",
-========
-        "id": "admin",
->>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/admin/admin.json
         "deleted": false,
         "policies": [],
         "userPermissions": []
