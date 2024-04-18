@@ -13,10 +13,10 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Movies",
-    "collectionId": "Movies_JSObject1",
+    "pageId": "Admin View",
+    "collectionId": "Admin View_JSObject1",
     "actionConfiguration": {
-      "timeoutInMillisecond": 10000,
+      "timeoutInMillisecond": 0,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
@@ -35,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T00:48:15Z"
+    "createdAt": "2024-04-18T04:28:22Z"
   },
-  "id": "Movies_JSObject1.fetchAllUsers",
+  "id": "Admin View_JSObject1.fetchAllUsers",
   "deleted": false,
-  "gitSyncId": "662045f7a8df03778821a3e8_66206dcfa8df03778821a473"
+  "gitSyncId": "661ebff3b4c0a929a01e31a1_6620a16607d12d3be729d178"
 }
