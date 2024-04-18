@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api1",
+    "name": "Api3",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/user/user"
+        "url": "web:4000/user/user/timotheechalamet"
       },
       "invalids": [],
       "messages": [],
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T18:54:38Z"
+    "createdAt": "2024-04-18T18:58:17Z"
   },
-  "id": "Customer HQ_Api1",
+  "id": "Customer HQ_Api3",
   "deleted": false,
-  "gitSyncId": "66216b8cbfc8d302c64db3f3_66216c6ebfc8d302c64db44b"
+  "gitSyncId": "66216b8cbfc8d302c64db3f3_66216d49bfc8d302c64db44e"
 }
