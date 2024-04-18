@@ -19,6 +19,10 @@
     {
       "id": "Movies Admin",
       "isDefault": false
+    },
+    {
+      "id": "Outdoor_Activity",
+      "isDefault": false
     }
   ],
   "viewMode": false,
