@@ -1,7 +1,11 @@
 {
   "pages": [
     {
+<<<<<<< HEAD
       "id": "Admin View",
+=======
+      "id": "admin",
+>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4
       "isDefault": false
     },
     {
@@ -9,7 +13,11 @@
       "isDefault": true
     },
     {
-      "id": "Lalisa Manoban",
+      "id": "Destination",
+      "isDefault": false
+    },
+    {
+      "id": "Restaurants",
       "isDefault": false
     },
     {

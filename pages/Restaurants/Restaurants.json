@@ -1,0 +1,47 @@
+{
+  "unpublishedPage": {
+    "name": "Restaurants",
+    "slug": "restaurants",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+<<<<<<< HEAD:pages/Lalisa Manoban/Lalisa Manoban.json
+          "bottomRow": 1240,
+=======
+          "bottomRow": 550,
+>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/Restaurants/Restaurants.json
+          "containerStyle": "none",
+          "snapRows": 54,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 560,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Restaurants",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "661f2f8e9b9f30123215ba5d_66204c5941fd9b62647e4089"
+}
