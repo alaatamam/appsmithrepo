@@ -21,11 +21,21 @@
         {"key": "schema.__root_schema__.defaultValue"},
         {"key": "schema.__root_schema__.borderRadius"},
         {"key": "schema.__root_schema__.cellBorderRadius"},
-        {"key": "schema.__root_schema__.children.CuisineType.borderRadius"},
-        {"key": "schema.__root_schema__.children.Reservations.borderRadius"},
-        {"key": "schema.__root_schema__.children.Location.defaultValue"},
-        {"key": "schema.__root_schema__.children.Location.borderRadius"},
-        {"key": "schema.__root_schema__.children.Location.accentColor"}
+        {"key": "schema.__root_schema__.children.ActivityTypeID.defaultValue"},
+        {"key": "schema.__root_schema__.children.ActivityTypeID.borderRadius"},
+        {"key": "schema.__root_schema__.children.ActivityTypeID.accentColor"},
+        {"key": "schema.__root_schema__.children.CafeID.defaultValue"},
+        {"key": "schema.__root_schema__.children.CafeID.borderRadius"},
+        {"key": "schema.__root_schema__.children.CafeID.accentColor"},
+        {"key": "schema.__root_schema__.children.Cuisine.defaultValue"},
+        {"key": "schema.__root_schema__.children.Cuisine.borderRadius"},
+        {"key": "schema.__root_schema__.children.Cuisine.accentColor"},
+        {"key": "schema.__root_schema__.children.OverallRating.defaultValue"},
+        {"key": "schema.__root_schema__.children.OverallRating.borderRadius"},
+        {"key": "schema.__root_schema__.children.OverallRating.accentColor"},
+        {"key": "schema.__root_schema__.children.PriceTag.defaultValue"},
+        {"key": "schema.__root_schema__.children.PriceTag.borderRadius"},
+        {"key": "schema.__root_schema__.children.PriceTag.accentColor"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -124,7 +134,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 70,
+    "originalBottomRow": 129,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -250,8 +260,6 @@
                 "isDisabled": false,
                 "sourceData": 1,
                 "fieldType": "Number Input"
-
- master:pages/Cafe - Admin/widgets/Showroom_listCopy/JSONForm1.json
             },
             "Name": {
                 "labelTextSize": "0.875rem",
@@ -273,28 +281,6 @@
                 "position": 8,
                 "isDisabled": false,
                 "sourceData": "Constancy Hargess",
-                "fieldType": "Text Input"
-            },
-            "Location": {
-                "labelTextSize": "0.875rem",
-                "identifier": "Location",
-                "boxShadow": "none",
-                "isRequired": false,
-                "isCustomField": false,
-                "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Location))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "string",
-                "accessor": "Location",
-                "isVisible": true,
-                "label": "Location",
-                "originalIdentifier": "Location",
-                "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "children": {},
-                "isSpellCheck": false,
-                "iconAlign": "left",
-                "position": 6,
-                "isDisabled": false,
-                "sourceData": "Gourmet Alley",
                 "fieldType": "Text Input"
             }
         },
@@ -329,7 +315,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 84,
+    "bottomRow": 70,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",
