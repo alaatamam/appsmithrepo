@@ -19,6 +19,14 @@
     {
       "id": "Movies Admin",
       "isDefault": false
+    },
+    {
+      "id": "Movies - User",
+      "isDefault": false
+    },
+    {
+      "id": "Customer HQ",
+      "isDefault": false
     }
   ],
   "viewMode": false,

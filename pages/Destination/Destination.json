@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 760,
+          "bottomRow": 460,
           "containerStyle": "none",
           "snapRows": 54,
           "parentRowSpace": 1,
@@ -25,20 +25,17 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Destination_get_destination",
-              "name": "get_destination",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [
+          {
+            "code": "AE-CYC-4041",
+            "title": "CONFIGURATION_ERROR",
+            "message": "A cyclic dependency error has been encountered on current page, \nqueries on page load will not run. \n Please check debugger and Appsmith documentation for more information",
+            "errorType": "Cyclical dependency error encountered while parsing relationship [put_proximity.data : Select1.sourceData] where the relationship is denoted as (source : target).",
+            "referenceDoc": "Cyclical Dependency in Page Load Actions"
+          }
         ],
-        "layoutOnLoadActionErrors": [],
-        "validOnPageLoadActions": true,
+        "validOnPageLoadActions": false,
         "id": "Destination",
         "deleted": false,
         "policies": [],
