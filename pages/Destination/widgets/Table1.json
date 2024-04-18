@@ -29,7 +29,7 @@
         {"key": "primaryColumns.UserID.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 0,
+    "leftColumn": 26,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -92,7 +92,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 52,
+    "bottomRow": 82,
     "columnWidthMap": {},
     "parentRowSpace": 10,
     "hideCard": false,
@@ -539,7 +539,11 @@
     "key": "wvc978lg2a",
     "canFreezeColumn": true,
     "isDeprecated": false,
+<<<<<<< HEAD:pages/Lalisa Manoban/widgets/Table1.json
+    "rightColumn": 60,
+=======
     "rightColumn": 17,
+>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/Destination/widgets/Table1.json
     "textSize": "0.875rem",
     "widgetId": "ognia16fp3",
     "minWidth": 450,

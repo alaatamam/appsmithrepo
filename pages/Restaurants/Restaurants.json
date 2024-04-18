@@ -13,7 +13,11 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
+<<<<<<< HEAD:pages/Lalisa Manoban/Lalisa Manoban.json
+          "bottomRow": 1240,
+=======
           "bottomRow": 550,
+>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/Restaurants/Restaurants.json
           "containerStyle": "none",
           "snapRows": 54,
           "parentRowSpace": 1,
