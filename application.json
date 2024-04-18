@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "admin",
+      "id": "Admin View",
       "isDefault": false
     },
     {
@@ -9,11 +9,7 @@
       "isDefault": true
     },
     {
-      "id": "Destination",
-      "isDefault": false
-    },
-    {
-      "id": "Restaurants",
+      "id": "Lalisa Manoban",
       "isDefault": false
     },
     {
