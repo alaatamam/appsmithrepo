@@ -8,7 +8,7 @@
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/user/user"
+        "url": "web:4000/user/budget"
       },
       "invalids": [],
       "messages": [],
@@ -32,7 +32,7 @@
       "queryParameters": [],
       "body": "{{JSONForm1.formData}}",
       "bodyFormData": [],
-      "httpMethod": "POST",
+      "httpMethod": "PUT",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
