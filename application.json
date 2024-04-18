@@ -2,30 +2,18 @@
   "pages": [
     {
       "id": "Admin View",
-      "isDefault": false
-    },
-    {
-      "id": "UserProfile",
       "isDefault": true
-    },
-    {
-      "id": "Lalisa Manoban",
-      "isDefault": false
     },
     {
       "id": "Customer HQ",
       "isDefault": false
     },
     {
-      "id": "Movies",
+      "id": "Movies - User",
       "isDefault": false
     },
     {
-      "id": "Admin View Copy",
-      "isDefault": false
-    },
-    {
-      "id": "Cafe",
+      "id": "Art Museums - User",
       "isDefault": false
     }
   ],
