@@ -1,23 +1,16 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
-<<<<<<<< HEAD:pages/Movies Admin/widgets/Form1/Input1.json
-    "topRow": 8,
-========
     "topRow": 11,
->>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/Destination/widgets/Form1/Input1.json
     "labelWidth": 5,
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
     "resetOnSubmit": true,
-<<<<<<<< HEAD:pages/Movies Admin/widgets/Form1/Input1.json
-    "leftColumn": 6,
-========
     "leftColumn": 0,
->>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/Destination/widgets/Form1/Input1.json
     "dynamicBindingPathList": [
         {"key": "accentColor"},
-        {"key": "borderRadius"}
+        {"key": "borderRadius"},
+        {"key": "defaultText"}
     ],
     "labelStyle": "",
     "inputType": "TEXT",
@@ -36,7 +29,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "originalBottomRow": 23,
     "needsErrorInfo": false,
-    "mobileBottomRow": 15,
+    "mobileBottomRow": 14,
     "widgetName": "Input1",
     "displayName": "Input",
     "searchTags": [
@@ -45,38 +38,30 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 15,
+    "bottomRow": 21,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,
-    "mobileRightColumn": 26,
-    "parentColumnSpace": 4.4521484375,
+    "mobileRightColumn": 22,
+    "parentColumnSpace": 4.732421875,
+    "dynamicTriggerPathList": [],
     "labelPosition": "Top",
-    "key": "ypgcj0oydd",
+    "key": "68sd9u6q2b",
     "labelTextSize": "0.875rem",
     "isDeprecated": false,
-<<<<<<<< HEAD:pages/Movies Admin/widgets/Form1/Input1.json
-    "rightColumn": 26,
-    "widgetId": "dksl3923vm",
-========
     "rightColumn": 59,
     "widgetId": "4n6hv2dtpm",
->>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/Destination/widgets/Form1/Input1.json
     "minWidth": 450,
-    "label": "Label",
-    "parentId": "b0skdfy84m",
+    "label": "Budget",
+    "parentId": "3wahfowhqc",
     "labelAlignment": "left",
     "renderMode": "CANVAS",
-    "mobileTopRow": 8,
+    "mobileTopRow": 7,
     "responsiveBehavior": "fill",
-<<<<<<<< HEAD:pages/Movies Admin/widgets/Form1/Input1.json
-    "mobileLeftColumn": 6,
-========
     "originalTopRow": 16,
     "mobileLeftColumn": 2,
->>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/Destination/widgets/Form1/Input1.json
     "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "",
+    "defaultText": "{{Table1.selectedRow.Budget}}",
     "minDynamicHeight": 4
 }
