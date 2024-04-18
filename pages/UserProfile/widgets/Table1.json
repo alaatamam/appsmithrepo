@@ -544,7 +544,7 @@
     "textSize": "0.875rem",
     "widgetId": "mt7k4ig49d",
     "minWidth": 450,
-    "tableData": "{{get_user.data}}",
+    "tableData": "{{get_timothee.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "0",

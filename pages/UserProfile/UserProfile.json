@@ -29,13 +29,8 @@
         "layoutOnLoadActions": [
           [
             {
-<<<<<<< HEAD:pages/UserProfile/UserProfile.json
               "id": "UserProfile_get_timothee",
               "name": "get_timothee",
-=======
-              "id": "Page1_get_user",
-              "name": "get_user",
->>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/Page1/Page1.json
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
