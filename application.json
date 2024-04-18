@@ -15,6 +15,10 @@
     {
       "id": "Restaurants",
       "isDefault": false
+    },
+    {
+      "id": "Movies Admin",
+      "isDefault": false
     }
   ],
   "viewMode": false,

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Destination",
-    "slug": "destination",
+    "name": "Movies Admin",
+    "slug": "movies-admin",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 760,
+          "bottomRow": 470,
           "containerStyle": "none",
           "snapRows": 54,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Destination_get_destination",
-              "name": "get_destination",
+              "id": "Movies Admin_get_movies",
+              "name": "get_movies",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Destination",
+        "id": "Movies Admin",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661f2f8e9b9f30123215ba5d_6620041340fe4224a3bc9654"
+  "gitSyncId": "6620576041fd9b62647e4097_66205e0241fd9b62647e40e2"
 }

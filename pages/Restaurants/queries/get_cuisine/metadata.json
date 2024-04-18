@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_user",
+    "name": "get_cuisine",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/user/user"
+        "url": "web:4000/restaurants/restaurants/CuisineType"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Destination",
+    "pageId": "Restaurants",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T17:55:44Z"
+    "createdAt": "2024-04-17T23:20:06Z"
   },
-  "id": "Destination_get_user",
+  "id": "Restaurants_get_cuisine",
   "deleted": false,
-  "gitSyncId": "661f2f8e9b9f30123215ba5d_66200d2040fe4224a3bc965c"
+  "gitSyncId": "6620576041fd9b62647e4097_6620592641fd9b62647e40d5"
 }
