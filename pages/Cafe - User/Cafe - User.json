@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Customer HQ",
-    "slug": "customer-hq",
+    "name": "Cafe - User",
+    "slug": "cafe-user",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1600,
+          "bottomRow": 1060,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Customer HQ_Api1",
-              "name": "Api1",
+              "id": "Cafe - User_get_movies",
+              "name": "get_movies",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Customer HQ",
+        "id": "Cafe - User",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "662045f7a8df03778821a3e8_662055f2a8df03778821a406"
+  "gitSyncId": "66215a8d07d12d3be729d58f_66215eb707d12d3be729d5df"
 }

@@ -35,6 +35,10 @@
     {
       "id": "Outdoor Activity - ",
       "isDefault": false
+    },
+    {
+      "id": "Cafe - User",
+      "isDefault": false
     }
   ],
   "viewMode": false,
