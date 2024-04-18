@@ -1,15 +1,27 @@
 {
   "pages": [
     {
-      "id": "Car showroom",
+      "id": "Admin View",
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "UserProfile",
       "isDefault": true
     },
     {
       "id": "Lalisa Manoban",
+      "isDefault": false
+    },
+    {
+      "id": "Customer HQ",
+      "isDefault": false
+    },
+    {
+      "id": "Movies",
+      "isDefault": false
+    },
+    {
+      "id": "Movies Copy",
       "isDefault": false
     }
   ],
