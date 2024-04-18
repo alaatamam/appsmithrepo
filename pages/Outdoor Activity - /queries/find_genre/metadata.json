@@ -2,13 +2,13 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "delete_user",
+    "name": "find_genre",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
         "sshProxyEnabled": false,
-        "url": "web:4000/user/user/"
+        "url": "web:4000/outdoor/outdoor"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +17,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Admin View",
+    "pageId": "Outdoor Activity - ",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -32,7 +32,7 @@
       "queryParameters": [],
       "body": "{{JSONForm1.formData}}",
       "bodyFormData": [],
-      "httpMethod": "DELETE",
+      "httpMethod": "GET",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -41,7 +41,7 @@
         }
       ],
       "formData": {
-        "apiContentType": "none"
+        "apiContentType": "application/json"
       }
     },
     "executeOnLoad": false,
@@ -60,9 +60,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T07:31:16Z"
+    "createdAt": "2024-04-18T00:09:27Z"
   },
-  "id": "Admin View_delete_user",
+  "id": "Outdoor Activity - _find_genre",
   "deleted": false,
-  "gitSyncId": "6620c13907d12d3be729d30a_6620cc4407d12d3be729d3c9"
+  "gitSyncId": "6620dabb07d12d3be729d458_6620db8607d12d3be729d4a4"
 }

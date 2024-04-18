@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{get_user.run().then(() => {\n  delete_user.run();\n  get_user.run();\n});}}",
+    "onSubmit": "{{delete_user.run().then(() => {\n  delete_user.run();\n});}}",
     "topRow": 71,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -435,7 +435,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 400,
+                "sourceData": 50,
                 "fieldType": "Number Input"
             },
             "Age": {

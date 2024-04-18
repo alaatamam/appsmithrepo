@@ -31,6 +31,10 @@
     {
       "id": "Restaurant - User",
       "isDefault": false
+    },
+    {
+      "id": "Outdoor Activity - ",
+      "isDefault": false
     }
   ],
   "viewMode": false,

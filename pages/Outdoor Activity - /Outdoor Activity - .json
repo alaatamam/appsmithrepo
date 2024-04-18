@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Movies Admin",
-    "slug": "movies-admin",
+    "name": "Outdoor Activity - ",
+    "slug": "outdoor-activity",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1220,
+          "bottomRow": 1060,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Movies Admin_getMovies",
-              "name": "getMovies",
+              "id": "Outdoor Activity - _get_movies",
+              "name": "get_movies",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Movies Admin",
+        "id": "Outdoor Activity - ",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661ef198b4c0a929a01e31d1_661f1ceeb4c0a929a01e324a"
+  "gitSyncId": "6620dabb07d12d3be729d458_6620db8607d12d3be729d49e"
 }
