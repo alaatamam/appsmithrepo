@@ -23,6 +23,10 @@
     {
       "id": "Admin View Copy",
       "isDefault": false
+    },
+    {
+      "id": "Cafe",
+      "isDefault": false
     }
   ],
   "viewMode": false,
