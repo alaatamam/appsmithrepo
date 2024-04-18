@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "fetchAllUsers",
-    "fullyQualifiedName": "JSObject1.fetchAllUsers",
+    "name": "searchUser",
+    "fullyQualifiedName": "JSObject1.searchUser",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,14 +14,18 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Admin View",
-    "collectionId": "Admin View_JSObject1",
+    "pageId": "Cafe - Admin",
+    "collectionId": "Cafe - Admin_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
       "selfReferencingDataPaths": [],
-      "jsArguments": []
+      "jsArguments": [
+        {
+          "name": "searchText"
+        }
+      ]
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -36,9 +40,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T07:18:46Z"
+    "createdAt": "2024-04-18T07:20:44Z"
   },
-  "id": "Admin View_JSObject1.fetchAllUsers",
+  "id": "Cafe - Admin_JSObject1.searchUser",
   "deleted": false,
-  "gitSyncId": "6620c13907d12d3be729d30a_6620c9d607d12d3be729d3bf"
+  "gitSyncId": "6620c13907d12d3be729d30a_6620d31b07d12d3be729d3d2"
 }
