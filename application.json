@@ -5,7 +5,7 @@
       "isDefault": false
     },
     {
-      "id": "Customer HQ",
+      "id": "customer hq ",
       "isDefault": true
     },
     {
@@ -38,6 +38,22 @@
     },
     {
       "id": "Cafe - User",
+      "isDefault": false
+    },
+    {
+      "id": "customer hq - lalisa",
+      "isDefault": false
+    },
+    {
+      "id": "customer hq - Amelia",
+      "isDefault": false
+    },
+    {
+      "id": "customer hq - Tim",
+      "isDefault": false
+    },
+    {
+      "id": "customer hq - Chloe",
       "isDefault": false
     }
   ],
