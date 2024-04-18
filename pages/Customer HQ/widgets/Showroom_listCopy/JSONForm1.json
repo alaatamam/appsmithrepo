@@ -194,7 +194,6 @@
                 "iconAlign": "left",
                 "position": 12,
                 "isDisabled": false,
-                "sourceData": null,
                 "fieldType": "Text Input"
             },
             "PaymentID": {
@@ -487,7 +486,6 @@
         "position": -1,
         "isDisabled": false,
         "sourceData": {
-            "SubscriptionPlan": null,
             "PaymentID": 1,
             "Gender": "Female",
             "Name": "Constancy Hargess",
