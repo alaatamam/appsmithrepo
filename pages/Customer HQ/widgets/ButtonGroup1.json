@@ -77,6 +77,7 @@
             "isDisabled": false
         },
         "groupButton1": {
+            "onClick": "{{Api3.run().then(() => {\n  Api3.run();\n});}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
@@ -105,7 +106,7 @@
     "mobileRightColumn": 31,
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "groupButtons.groupButton1.onClick"}],
     "leftColumn": 7,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
