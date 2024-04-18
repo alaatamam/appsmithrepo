@@ -2,11 +2,11 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{delete_user.run().then(() => {\n  delete_user.run();\n});}}",
-    "topRow": 71,
+    "onSubmit": "{{new_user.run().then(() => {\n  new_user.run();\n  get_user.run();\n});}}",
+    "topRow": 93,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 32,
+    "leftColumn": 7,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -158,7 +158,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 193,
+    "originalBottomRow": 215,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -215,7 +215,7 @@
                 "iconAlign": "left",
                 "position": 10,
                 "isDisabled": false,
-                "sourceData": 3,
+                "sourceData": 7,
                 "fieldType": "Number Input"
             },
             "Gender": {
@@ -325,7 +325,7 @@
                 "iconAlign": "left",
                 "position": 13,
                 "isDisabled": false,
-                "sourceData": 3,
+                "sourceData": 7,
                 "fieldType": "Number Input"
             },
             "DietaryRestrictions": {
@@ -391,7 +391,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 222,
+                "sourceData": 28,
                 "fieldType": "Number Input"
             },
             "Likes": {
@@ -435,7 +435,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 50,
+                "sourceData": 406,
                 "fieldType": "Number Input"
             },
             "Age": {
@@ -457,7 +457,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 32,
+                "sourceData": 9,
                 "fieldType": "Number Input"
             },
             "Hometown": {
@@ -514,10 +514,10 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 193,
+    "bottomRow": 215,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
-    "title": "Form",
+    "title": "Add a User",
     "hideCard": false,
     "mobileRightColumn": 57,
     "parentColumnSpace": 17.9375,
@@ -528,7 +528,7 @@
     "key": "n3qtymhulk",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 59,
+    "rightColumn": 52,
     "widgetId": "xp8j299boe",
     "minWidth": 450,
     "parentId": "0",
@@ -537,7 +537,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 71,
+    "originalTopRow": 93,
     "mobileLeftColumn": 32,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
