@@ -1,11 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "JSObject1",
-<<<<<<<< HEAD:pages/Admin View/jsobjects/JSObject1/metadata.json
-    "pageId": "Admin View",
-========
     "pageId": "admin",
->>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/admin/jsobjects/JSObject1/metadata.json
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -22,11 +18,7 @@
     ],
     "userPermissions": []
   },
-<<<<<<<< HEAD:pages/Admin View/jsobjects/JSObject1/metadata.json
-  "id": "Admin View_JSObject1",
-========
   "id": "admin_JSObject1",
->>>>>>>> 0cb4343edc8d386f680f41cc71512fb980e0fbe4:pages/admin/jsobjects/JSObject1/metadata.json
   "deleted": false,
   "gitSyncId": "661ef198b4c0a929a01e31d1_661f1ceeb4c0a929a01e325b"
 }
