@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "getTotalUserBudget",
-    "fullyQualifiedName": "JSObject1.getTotalUserBudget",
+    "name": "fetchAllUsers",
+    "fullyQualifiedName": "JSObject1.fetchAllUsers",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -14,8 +14,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Art Museums - User",
-    "collectionId": "Art Museums - User_JSObject1",
+    "pageId": "Musical Festivals",
+    "collectionId": "Musical Festivals_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T00:48:15Z"
+    "createdAt": "2024-04-18T04:50:41Z"
   },
-  "id": "Art Museums - User_JSObject1.getTotalUserBudget",
+  "id": "Musical Festivals_JSObject1.fetchAllUsers",
   "deleted": false,
-  "gitSyncId": "661f612d1670ac268d11bd6b_6620a6e11670ac268d11bee6"
+  "gitSyncId": "6620be2907d12d3be729d2a0_6620be7107d12d3be729d2c6"
 }

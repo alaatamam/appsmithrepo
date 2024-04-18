@@ -15,6 +15,10 @@
     {
       "id": "Art Museums - User",
       "isDefault": false
+    },
+    {
+      "id": "Musical Festivals",
+      "isDefault": false
     }
   ],
   "viewMode": false,
