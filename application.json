@@ -23,6 +23,10 @@
     {
       "id": "Movies Copy",
       "isDefault": false
+    },
+    {
+      "id": "Movies Admin",
+      "isDefault": false
     }
   ],
   "viewMode": false,
