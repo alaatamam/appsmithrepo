@@ -87,6 +87,6 @@
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 33,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 21,
+    "originalBottomRow": 23,
     "minDynamicHeight": 10
 }
