@@ -1,7 +1,7 @@
 {
   "unpublishedCollection": {
     "name": "JSObject1",
-    "pageId": "Admin View",
+    "pageId": "Cafe - Admin",
     "pluginId": "js-plugin",
     "pluginType": "JS",
     "actions": [],
@@ -18,7 +18,7 @@
     ],
     "userPermissions": []
   },
-  "id": "Admin View_JSObject1",
+  "id": "Cafe - Admin_JSObject1",
   "deleted": false,
-  "gitSyncId": "6620c13907d12d3be729d30a_6620c9d607d12d3be729d3c6"
+  "gitSyncId": "6620c13907d12d3be729d30a_6620d31b07d12d3be729d3d8"
 }

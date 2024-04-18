@@ -1,12 +1,12 @@
 {
   "pages": [
     {
-      "id": "Admin View",
-      "isDefault": true
+      "id": "Movies Admin",
+      "isDefault": false
     },
     {
       "id": "Customer HQ",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Movies - User",
@@ -21,7 +21,11 @@
       "isDefault": false
     },
     {
-      "id": "Movies View",
+      "id": "Admin View",
+      "isDefault": false
+    },
+    {
+      "id": "Cafe - Admin",
       "isDefault": false
     }
   ],
