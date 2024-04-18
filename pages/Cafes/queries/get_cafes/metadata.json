@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_destination",
+    "name": "get_cafes",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/destination/destination"
+        "url": "web:4000/cafes/cafes"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Destination",
+    "pageId": "Cafes",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -55,7 +55,7 @@
     "userPermissions": [],
     "createdAt": "2024-04-17T17:21:11Z"
   },
-  "id": "Destination_get_destination",
+  "id": "Cafes_get_cafes",
   "deleted": false,
   "gitSyncId": "661f2f8e9b9f30123215ba5d_6620050640fe4224a3bc9656"
 }
