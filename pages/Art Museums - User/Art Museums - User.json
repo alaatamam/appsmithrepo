@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Art Museums - User_get_movies",
-              "name": "get_movies",
+              "id": "Art Museums - User_get_artmuseums",
+              "name": "get_artmuseums",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
