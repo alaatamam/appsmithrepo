@@ -1,49 +1,34 @@
 {
   "unpublishedPage": {
-    "name": "Customer HQ",
-    "slug": "customer-hq",
+    "name": "Outdoor_Activity",
+    "slug": "outdoor-activity",
     "layouts": [
       {
         "viewMode": false,
         "dsl": {
           "widgetName": "MainContainer",
           "backgroundColor": "none",
-          "rightColumn": 1160,
+          "rightColumn": 1224,
           "snapColumns": 64,
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-<<<<<<< HEAD:pages/Restaurants/Restaurants.json
-          "bottomRow": 840,
-=======
-          "bottomRow": 1540,
->>>>>>> master:pages/Customer HQ/Customer HQ.json
+          "bottomRow": 660,
           "containerStyle": "none",
-          "snapRows": 125,
+          "snapRows": 65,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 640,
+          "minHeight": 670,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Customer HQ_Api1",
-              "name": "Api1",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Customer HQ",
+        "id": "Outdoor_Activity",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -54,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "662045f7a8df03778821a3e8_662055f2a8df03778821a406"
+  "gitSyncId": "661efa31f19d4663d0ef3731_6620c1d1733b4179d628f2e1"
 }

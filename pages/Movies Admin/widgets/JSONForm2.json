@@ -131,7 +131,11 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+<<<<<<< HEAD:pages/Destination/widgets/JSONForm1.json
+    "originalBottomRow": 76,
+=======
     "originalBottomRow": 79,
+>>>>>>> master:pages/Movies Admin/widgets/JSONForm2.json
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
