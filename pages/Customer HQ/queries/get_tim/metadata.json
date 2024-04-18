@@ -2,13 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "get_movies",
+    "name": "get_tim",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "sshProxyEnabled": false,
-        "url": "web:4000/outdoor/outdoor"
+        "url": "web:4000/user/user/36"
       },
       "invalids": [],
       "messages": [],
@@ -17,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Outdoor Activity - ",
+    "pageId": "Customer HQ",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -39,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -49,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-17T00:53:06Z"
+    "createdAt": "2024-04-18T18:54:38Z"
   },
-  "id": "Outdoor Activity - _get_movies",
+  "id": "Customer HQ_get_tim",
   "deleted": false,
-  "gitSyncId": "6620dabb07d12d3be729d458_6620db8607d12d3be729d4a7"
+  "gitSyncId": "66216b8cbfc8d302c64db3f3_66216c6ebfc8d302c64db44b"
 }

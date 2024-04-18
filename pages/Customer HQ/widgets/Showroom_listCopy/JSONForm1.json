@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{Api2.run().then(() => {\n  Api2.run();\n  Api1.run();\n});}}",
+    "onSubmit": "{{Api2.run().then(() => {\n  Api2.run();\n  get_tim.run();\n});}}",
     "topRow": 10,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -325,7 +325,7 @@
                 "iconAlign": "left",
                 "position": 13,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 36,
                 "fieldType": "Number Input"
             },
             "DietaryRestrictions": {
@@ -435,7 +435,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 0,
+                "sourceData": 200,
                 "fieldType": "Number Input"
             },
             "Age": {
@@ -457,7 +457,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 30,
+                "sourceData": 28,
                 "fieldType": "Number Input"
             },
             "Hometown": {

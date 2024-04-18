@@ -296,7 +296,7 @@
     "textSize": "0.875rem",
     "widgetId": "7u6jckx0tq",
     "minWidth": 450,
-    "tableData": "{{get_movies.data}}",
+    "tableData": "{{get_restaurants.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "aokq17zun7",

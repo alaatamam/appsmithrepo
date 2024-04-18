@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Outdoor Activity - _get_movies",
-              "name": "get_movies",
+              "id": "Outdoor Activity - _get_outdoor",
+              "name": "get_outdoor",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],

@@ -181,7 +181,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.OverallRating))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "OverallRating",
                 "isVisible": true,
                 "label": "Overall Rating",
@@ -192,8 +192,8 @@
                 "iconAlign": "left",
                 "position": 4,
                 "isDisabled": false,
-                "sourceData": 5,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "PriceTag": {
                 "labelTextSize": "0.875rem",
@@ -225,7 +225,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.CafeID))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "CafeID",
                 "isVisible": true,
                 "label": "Cafe ID",
@@ -236,8 +236,8 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 46,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "ActivityTypeID": {
                 "labelTextSize": "0.875rem",
@@ -247,7 +247,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.ActivityTypeID))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "ActivityTypeID",
                 "isVisible": true,
                 "label": "Activity Type ID",
@@ -258,8 +258,8 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 1,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "Name": {
                 "labelTextSize": "0.875rem",

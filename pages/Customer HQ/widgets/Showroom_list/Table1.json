@@ -12,7 +12,6 @@
         {"key": "accentColor"},
         {"key": "borderRadius"},
         {"key": "boxShadow"},
-        {"key": "tableData"},
         {"key": "primaryColumns.Age.computedValue"},
         {"key": "primaryColumns.Balance.computedValue"},
         {"key": "primaryColumns.Budget.computedValue"},
@@ -26,7 +25,8 @@
         {"key": "primaryColumns.PaymentID.computedValue"},
         {"key": "primaryColumns.PaymentMethod.computedValue"},
         {"key": "primaryColumns.SubscriptionPlan.computedValue"},
-        {"key": "primaryColumns.UserID.computedValue"}
+        {"key": "primaryColumns.UserID.computedValue"},
+        {"key": "tableData"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 2,
@@ -544,7 +544,7 @@
     "textSize": "0.875rem",
     "widgetId": "y8a9mtp4n4",
     "minWidth": 450,
-    "tableData": "{{Api1.data}}",
+    "tableData": "{{Api4.data}}",
     "label": "Data",
     "searchKey": "",
     "parentId": "tiuvc0ci5w",

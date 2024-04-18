@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Cafe - User_get_movies",
-              "name": "get_movies",
+              "id": "Cafe - User_get_cafes",
+              "name": "get_cafes",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
