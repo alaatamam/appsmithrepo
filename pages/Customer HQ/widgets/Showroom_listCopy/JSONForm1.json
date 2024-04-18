@@ -204,7 +204,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.PaymentID))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "PaymentID",
                 "isVisible": true,
                 "label": "Payment ID",
@@ -215,8 +215,8 @@
                 "iconAlign": "left",
                 "position": 10,
                 "isDisabled": false,
-                "sourceData": 1,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "Gender": {
                 "labelTextSize": "0.875rem",
@@ -314,7 +314,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.UserID))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "UserID",
                 "isVisible": true,
                 "label": "User ID",
@@ -325,8 +325,8 @@
                 "iconAlign": "left",
                 "position": 13,
                 "isDisabled": false,
-                "sourceData": 1,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "DietaryRestrictions": {
                 "labelTextSize": "0.875rem",
@@ -380,7 +380,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Budget))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "Budget",
                 "isVisible": true,
                 "label": "Budget",
@@ -391,8 +391,8 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 203,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "Likes": {
                 "labelTextSize": "0.875rem",
@@ -424,7 +424,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Balance))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "Balance",
                 "isVisible": true,
                 "label": "Balance",
@@ -435,8 +435,8 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": 200,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "Age": {
                 "labelTextSize": "0.875rem",
@@ -446,7 +446,7 @@
                 "isCustomField": false,
                 "defaultValue": "{{((sourceData, formData, fieldState) => (sourceData.Age))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
-                "dataType": "number",
+                "dataType": "string",
                 "accessor": "Age",
                 "isVisible": true,
                 "label": "Age",
@@ -457,8 +457,8 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 22,
-                "fieldType": "Number Input"
+                "sourceData": "",
+                "fieldType": "Text Input"
             },
             "Hometown": {
                 "labelTextSize": "0.875rem",
@@ -514,7 +514,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 14,
+    "bottomRow": 129,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "",
