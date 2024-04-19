@@ -3,10 +3,7 @@
     "widgetName": "info_container",
     "borderColor": "",
     "isCanvas": true,
-    "dynamicPropertyPathList": [
-        {"key": "isVisible"},
-        {"key": "borderRadius"}
-    ],
+    "dynamicPropertyPathList": [{"key": "borderRadius"}],
     "displayName": "Container",
     "iconSVG": "/static/media/icon.1977dca3.svg",
     "topRow": 68,
@@ -54,7 +51,7 @@
     "dynamicHeight": "FIXED",
     "widgetId": "1v19voki2q",
     "containerStyle": "card",
-    "isVisible": "",
+    "isVisible": true,
     "version": 1,
     "parentId": "0",
     "renderMode": "CANVAS",
