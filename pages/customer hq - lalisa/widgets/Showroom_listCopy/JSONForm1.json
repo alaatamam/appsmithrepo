@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{Api2.run().then(() => {\n  Api2.run();\n  get_tim.run();\n});}}",
+    "onSubmit": "{{update.run().then(() => {\n  update.run();\n  get_tim.run();\n});}}",
     "topRow": 10,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
