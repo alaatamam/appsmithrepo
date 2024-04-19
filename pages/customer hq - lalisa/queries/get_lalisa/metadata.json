@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/user/user/38"
+        "url": "web:4000/user/user/41"
       },
       "invalids": [],
       "messages": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-18T21:16:42Z"
+    "createdAt": "2024-04-19T01:36:40Z"
   },
   "id": "customer hq - lalisa_get_lalisa",
   "deleted": false,
-  "gitSyncId": "66219635ef22f73fdb6bad5c_66219656ef22f73fdb6badb6"
+  "gitSyncId": "6621c8eb7f2ed523a44409d7_6621caa87f2ed523a4440a52"
 }

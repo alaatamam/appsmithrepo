@@ -92,7 +92,7 @@
             "isDisabled": false
         },
         "groupButton2": {
-            "onClick": "{{get_lalisa.run().then(() => {\n  get_lalisa.run();\n  Api2.run();\n});}}",
+            "onClick": "{{get_lalisa.run().then(() => {\n  get_lalisa.run();\n  update.run();\n});}}",
             "buttonType": "SIMPLE",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
