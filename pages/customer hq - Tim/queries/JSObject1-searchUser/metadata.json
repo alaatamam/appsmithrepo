@@ -39,17 +39,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-<<<<<<< HEAD
     "createdAt": "2024-04-18T22:18:23Z"
   },
   "id": "customer hq - Tim_JSObject1.searchUser",
   "deleted": false,
   "gitSyncId": "66219635ef22f73fdb6bad5c_66219c2fef22f73fdb6bae0f"
-=======
-    "createdAt": "2024-04-18T22:09:46Z"
-  },
-  "id": "customer hq - Tim_JSObject1.searchUser",
-  "deleted": false,
-  "gitSyncId": "661ebff3b4c0a929a01e31a1_66219a2abfc8d302c64db652"
->>>>>>> master
 }
